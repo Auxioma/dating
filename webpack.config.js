@@ -32,6 +32,15 @@ Encore
     // but, you probably want this, unless you're building a single-page app
     .enableSingleRuntimeChunk()
 
+    /**
+     * Referencing Image files from a Template
+     * https://symfony.com/doc/current/frontend/encore/copy-files.html
+     */
+    .copyFiles({
+        from: './assets/DataStyle/images',
+        to: 'images/[path][name].[hash:8].[ext]'
+    })
+
     /*
      * FEATURE CONFIG
      *
