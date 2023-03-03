@@ -20,5 +20,16 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
+    },
+    "dependencies": {
+        "isotope-layout": "^3.0.6",
+        "jquery": "^3.3.1",
+        "jquery.counterup": "^2.1.0",
+        "lightcase": "^2.5.0",
+        "odometer": "^0.4.8",
+        "swiper": "^9.1.0",
+        "viewport.jquery": "^2.0.5",
+        "waypoints": "^4.0.1",
+        "wowjs": "^1.1.3"
     }
 }
